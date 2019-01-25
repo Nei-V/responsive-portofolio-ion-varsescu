@@ -4,9 +4,9 @@
   font-display: optional;
 }
 
-@font-face {
+/* @font-face {
   font-family: "Font Awesome 5 Brands";
- /*  src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"); */
+  src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"); 
   src:url("/fontawesome/css/fontawesome.css");
   src:url("/fontawesome/css/brands.css");
     
@@ -19,14 +19,14 @@
 @font-face {
   
   font-family:"Font Awesome 5 Free Solid";
- /*  src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"); */
+  src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"); 
   src:url("/fontawesome/css/fontawesome.css");
   src:url("/fontawesome/css/solid.css");
   
   font-weight: 900;
   font-display: optional;
    
-}
+} */
 /* 
 .fab{
   font-family:"Font Awesome 5 Brands", "Font Awesome 5 Brands" !important;
