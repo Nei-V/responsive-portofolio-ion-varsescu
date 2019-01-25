@@ -4,40 +4,6 @@
   font-display: optional;
 }
 
-/* @font-face {
-  font-family: "Font Awesome 5 Brands";
-  src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"); 
-  src:url("/fontawesome/css/fontawesome.css");
-  src:url("/fontawesome/css/brands.css");
-    
-  font-weight: 900;
-  font-display: optional;
-}
-
-
-
-@font-face {
-  
-  font-family:"Font Awesome 5 Free Solid";
-  src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"); 
-  src:url("/fontawesome/css/fontawesome.css");
-  src:url("/fontawesome/css/solid.css");
-  
-  font-weight: 900;
-  font-display: optional;
-   
-} */
-/* 
-.fab{
-  font-family:"Font Awesome 5 Brands", "Font Awesome 5 Brands" !important;
-  font-weight: 900;
-}
-
-.fas{
-  font-family:"Font Awesome 5 Free Solid", "Font Awesome 5 Free" !important;
-  font-weight: 900;
-} */
-
 #intro {
   padding-top: 40px;
   padding-bottom: 25px;
@@ -191,12 +157,3 @@ input[type="number"] {
 .arrow:hover {
   text-decoration: none;
 }
-
-/*not working - center intro columns:
-.textcenter3place{
-position:absolute;
-left:30%;
-width:50%;
-top: 60px;
-}
-  */
