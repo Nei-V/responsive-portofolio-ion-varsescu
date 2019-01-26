@@ -7,6 +7,7 @@
   -webkit-font-smoothing: antialiased;
   display: inline-block;
   font-style: normal;
+  font-display: swap;
   font-variant: normal;
   text-rendering: auto;
   line-height: 1; }
