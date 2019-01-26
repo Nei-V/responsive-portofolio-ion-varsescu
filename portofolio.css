@@ -145,7 +145,7 @@ input[type="number"] {
   border-style: outset;
   border-width: 2px;
   border-color: blue;
-  color:darkblue;
+  
   border-radius: 5px;
   display: inline;
   position: fixed;
@@ -159,6 +159,7 @@ input[type="number"] {
   text-decoration: none;
 }
 
-.btn-primary{
-  background-color:darkblue;
+a {
+  color:darkblue;
 }
+
