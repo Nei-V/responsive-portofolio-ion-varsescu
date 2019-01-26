@@ -8,10 +8,10 @@
     <meta name="Description" content="This is Ion Varsescu&apos;s portofolio. It&apos;s done using bootstrap, font-awesome and jQuerry. It uses Google fonts. It is responsive. ">
     <title>Portofolio Ion Varsescu</title>
     <link rel="stylesheet" type="text/css" href="portofolio.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-        crossorigin="anonymous">
+   
     <noscript>
         <!-- defered loading of these css files - end of document -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link href="/fontawesome/css/fontawesome.css" rel="stylesheet">
         <link href="/fontawesome/css/brands.css" rel="stylesheet">
         <link href="/fontawesome/css/solid.css" rel="stylesheet">
@@ -246,7 +246,7 @@
                     <input type="text" name="b_b940cc40231393a834970548b_45962fb962" tabindex="-1" value="">
                 </div>
                 <div class="clear">
-                    <input type="submit" value="Send" name="subscribe" id="mc-embedded-subscribe" class="button" style="background-color:#666666">
+                    <input type="submit" value="Send me new articles" name="subscribe" id="mc-embedded-subscribe" class="button" style="background-color:blue; color:white">
                 </div>
             </div>
         </form>
@@ -329,15 +329,17 @@
         /* First CSS File - from https://www.giftofspeed.com/defer-loading-css/*/
         var deferedcssfile1 = document.createElement('link');
         deferedcssfile1.rel = 'stylesheet';
-        deferedcssfile1.href = '/fontawesome/css/fontawesome.css';
+        deferedcssfile1.href = 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css';
         deferedcssfile1.type = 'text/css';
+        deferedcssfile1.integrity = 'sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS'
+        deferedcssfile1.crossorigin = 'anonymous';
         var defer1 = document.getElementsByTagName('link')[0];
         defer1.parentNode.insertBefore(deferedcssfile1, defer1);
 
         /* Second CSS File */
         var deferedcssfile2 = document.createElement('link');
         deferedcssfile2.rel = 'stylesheet';
-        deferedcssfile2.href = '/fontawesome/css/brands.css';
+        deferedcssfile2.href = '/fontawesome/css/fontawesome.css';
         deferedcssfile2.type = 'text/css';
         var defer2 = document.getElementsByTagName('link')[0];
         defer2.parentNode.insertBefore(deferedcssfile2, defer2);
@@ -353,10 +355,18 @@
         /* Forth CSS File */
         var deferedcssfile4 = document.createElement('link');
         deferedcssfile4.rel = 'stylesheet';
-        deferedcssfile4.href = '//cdn-images.mailchimp.com/embedcode/classic-10_7.css';
+        deferedcssfile4.href = '/fontawesome/css/brands.css';
         deferedcssfile4.type = 'text/css';
         var defer4 = document.getElementsByTagName('link')[0];
-        defer4.parentNode.insertBefore(deferedcssfile3, defer4);
+        defer4.parentNode.insertBefore(deferedcssfile4, defer4);
+
+        /* Forth CSS File */
+        var deferedcssfile5 = document.createElement('link');
+        deferedcssfile5.rel = 'stylesheet';
+        deferedcssfile5.href = '//cdn-images.mailchimp.com/embedcode/classic-10_7.css';
+        deferedcssfile5.type = 'text/css';
+        var defer5 = document.getElementsByTagName('link')[0];
+        defer5.parentNode.insertBefore(deferedcssfile5, defer5);
     </script>
 </body>
 
