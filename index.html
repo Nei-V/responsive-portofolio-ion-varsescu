@@ -330,9 +330,9 @@
         var deferedcssfile1 = document.createElement('link');
         deferedcssfile1.rel = 'stylesheet';
         deferedcssfile1.href = 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css';
+        deferedcssfile1.crossOrigin = 'anonymous';
         deferedcssfile1.type = 'text/css';
         deferedcssfile1.integrity = 'sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS';
-        deferedcssfile1.crossorigin = 'anonymous';
         var defer1 = document.getElementsByTagName('link')[0];
         defer1.parentNode.insertBefore(deferedcssfile1, defer1);
 
