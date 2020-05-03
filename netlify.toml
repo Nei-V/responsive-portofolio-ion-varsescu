@@ -1,10 +1,10 @@
 
 
-
-[[redirects]]
-  from = "https://portofolio-ion-varsescu.netlify.com/*"
-  to = "https://portofolio.ionvarsescu.tk/:splat"
-  status = 301
-  force = true
+#example for how to redirect
+#[[redirects]]
+#  from = "https://portofolio-ion-varsescu.netlify.com/*"
+#  to = "https://portofolio.ionvarsescu.tk/:splat"
+#  status = 301
+#  force = true
 
 
